@@ -77,6 +77,7 @@ public class WeightedIssuesComputer implements MeasureComputer {
     int weight = 0;
     // TODO
     // TODO
+    // FIXME
     Map<String, Integer> weightsBySeverity = getOrInitWeightsBySeverity();
 
     for (String severity : ALL) {
